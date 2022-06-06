@@ -26,6 +26,10 @@
       "error",
       "single"
     ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
     "semi": "error",
     "max-len": [
       "error",
@@ -34,6 +38,12 @@
     "eqeqeq": [
       "error",
       "always"
+    ],
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      {
+        "allowSingleExtends": true
+      }
     ]
   }
 }
